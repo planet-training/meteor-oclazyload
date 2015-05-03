@@ -4,14 +4,14 @@ https://github.com/ocombe/ocLazyLoad
 ##Install
 ```
 meteor add planettraining:oclazyload
-``
+```
 
 ##How to
 Put source you want to lazy load either 
  - in the public folder```/public/a_lazy_file.js``` folder 
  - or if you have them in a package add them as asset to the client
 ```
-//foo:bar package:
+//foo:bar package.js:
 api.addFiles('my_large_file.js', ['client'],{isAsset:true});
 ```
 
