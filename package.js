@@ -1,6 +1,6 @@
 Package.describe({
   summary: "ocLazyLoad module for angular",
-  name: "planettraining:oc-lazy-load",
+  name: "planettraining:oclazyload",
   version: "1.0.0-beta.2",
   git:"https://github.com/planet-training/meteor-ocLazyLoad.git"
 });
