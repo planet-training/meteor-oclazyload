@@ -21,7 +21,7 @@ var myApp = angular.module("MyApp", ["oc.lazyLoad"]);
 //... and then during runtime:
 $ocLazyLoad.load([
     'a_lazy_file.js',
-    'packages/foo/bar/my_large_file.js'
+    'packages/foo_bar/my_large_file.js'
 ]).then(function(){
     console.log("yeah lazy!!!!!!!1111")
 });
