@@ -18,7 +18,9 @@ api.addFiles('my_large_file.js', ['client'],{isAsset:true});
 then somewhere in your angular code use the service to load it
 ```
 var myApp = angular.module("MyApp", ["oc.lazyLoad"]);
-//... and then during runtime:
+```
+And then during runtime:
+```
 $ocLazyLoad.load([
     'a_lazy_file.js',
     'packages/foo_bar/my_large_file.js'
